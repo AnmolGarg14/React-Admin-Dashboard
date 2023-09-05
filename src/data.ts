@@ -174,7 +174,6 @@ export const chartBoxUser = {
   number: "11.238",
   dataKey: "users",
   percentage: 45,
-  url: "/users",
   chartData: [
     { name: "Sun", users: 400 },
     { name: "Mon", users: 600 },
