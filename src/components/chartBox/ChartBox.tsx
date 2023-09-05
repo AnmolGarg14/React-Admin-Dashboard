@@ -10,7 +10,6 @@ type Props = {
   number: number | string;
   percentage: number;
   chartData: object[];
-  url: string;
 };
 
 const ChartBox = (props: Props) => {
@@ -22,7 +21,7 @@ const ChartBox = (props: Props) => {
           <span>{props.title}</span>
         </div>
         <h1>{props.number}</h1>
-        <Link to={props.url} style={{ color: props.color }}>
+        <Link to='/' style={{ color: props.color }}>
           View all
         </Link>
       </div>
